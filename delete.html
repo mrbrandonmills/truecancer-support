@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Account - TrueCancer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: #ef4444;
+        }
+        .updated { color: #64748b; margin-bottom: 40px; }
+        h2 { color: #06b6d4; margin: 30px 0 15px; font-size: 1.3rem; }
+        p, li { line-height: 1.8; color: #cbd5e1; margin-bottom: 15px; }
+        ul { padding-left: 20px; margin-bottom: 20px; }
+        a { color: #06b6d4; }
+        .footer { margin-top: 60px; padding-top: 20px; border-top: 1px solid #334155; color: #64748b; }
+        .delete-box {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+            border-radius: 12px;
+            padding: 30px;
+            margin: 30px 0;
+        }
+        .delete-box h3 { color: #ef4444; margin-bottom: 15px; }
+        .email-link {
+            display: inline-block;
+            background: #ef4444;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+        .email-link:hover { background: #dc2626; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Delete Your Account</h1>
+        <p class="updated">Account & Data Deletion Request</p>
+
+        <p>We respect your right to delete your account and associated data. This page explains what data we have and how to request deletion.</p>
+
+        <h2>What Data We Store</h2>
+        <ul>
+            <li><strong>Apple Sign-In ID:</strong> Used to identify your account for premium subscriptions</li>
+            <li><strong>Subscription Status:</strong> Managed through RevenueCat/Apple</li>
+            <li><strong>Local Scan History:</strong> Stored only on YOUR device (not our servers)</li>
+        </ul>
+
+        <h2>What We DON'T Store</h2>
+        <ul>
+            <li>Your scanned photos (processed in real-time, then deleted)</li>
+            <li>Your name or email address</li>
+            <li>Payment information (handled by Apple/Google)</li>
+        </ul>
+
+        <div class="delete-box">
+            <h3>Request Account Deletion</h3>
+            <p>To delete your account and all associated data, please send us an email with the subject "Delete My Account". Include the email address associated with your Apple ID or Google account.</p>
+            <p>We will process your request within 7 business days and confirm deletion via email.</p>
+            <a href="mailto:support@truecancer.app?subject=Delete%20My%20Account&body=Please%20delete%20my%20TrueCancer%20account%20and%20all%20associated%20data.%0A%0AMy%20account%20email%3A%20" class="email-link">Request Deletion via Email</a>
+        </div>
+
+        <h2>Delete Local Data</h2>
+        <p>Your scan history is stored locally on your device. To delete it:</p>
+        <ul>
+            <li>Open TrueCancer app</li>
+            <li>Go to Profile tab</li>
+            <li>Tap "Delete Account" or "Clear History"</li>
+        </ul>
+
+        <h2>Cancel Subscription</h2>
+        <p>To cancel your premium subscription:</p>
+        <ul>
+            <li><strong>iOS:</strong> Settings → Apple ID → Subscriptions → TrueCancer → Cancel</li>
+            <li><strong>Android:</strong> Play Store → Payments & Subscriptions → Subscriptions → TrueCancer → Cancel</li>
+        </ul>
+
+        <h2>Contact Us</h2>
+        <p>If you have questions about data deletion, contact us at:</p>
+        <p><a href="mailto:support@truecancer.app">support@truecancer.app</a></p>
+
+        <div class="footer">
+            <p><a href="index.html">&larr; Back to Support</a></p>
+            <p>&copy; 2025 TrueCancer. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
